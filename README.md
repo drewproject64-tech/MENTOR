@@ -14,10 +14,10 @@ No usa IA externa ni promete resultados académicos. No tiene pagos, enlaces pro
 
 ## Perfil de Telegram integrado en el código
 
-En \`main.py\` están definidos:
-- \`BOT_NAME\`: nombre visible.
-- \`BOT_ABOUT\`: descripción corta / About.
-- \`BOT_DESCRIPTION\`: descripción detallada.
+En `main.py` están definidos:
+- `BOT_NAME`: nombre visible.
+- `BOT_ABOUT`: descripción corta / About.
+- `BOT_DESCRIPTION`: descripción detallada.
 
 Al arrancar, el bot intenta configurar automáticamente el nombre, About, Description y comandos mediante la API oficial de Telegram. **La foto de perfil debe configurarse manualmente en @BotFather**. Verifica en Telegram que los cambios se hayan aplicado.
 
@@ -26,7 +26,7 @@ Al arrancar, el bot intenta configurar automáticamente el nombre, About, Descri
 1. Crea el bot con @BotFather y conserva el token de forma privada.
 2. Conecta este repositorio a un servicio **Background Worker** en Render.
 3. Selecciona Docker como runtime (se usa el Dockerfile incluido).
-4. Añade \`BOT_TOKEN\` como variable de entorno secreta. Nunca guardes el token en GitHub.
+4. Añade `BOT_TOKEN` como variable de entorno secreta. Nunca guardes el token en GitHub.
 5. Despliega y comprueba los logs del servicio.
 6. Prueba /start, los tres botones y la generación de planes de 30, 60 y 90 minutos.
 
@@ -34,17 +34,17 @@ Ejecuta una sola instancia de polling por token para evitar conflictos de getUpd
 
 ## Ejecución local
 
-\`\`\`bash
+```bash
 python -m pip install -r requirements.txt
 export BOT_TOKEN="TU_TOKEN_PRIVADO"
 python main.py
-\`\`\`
+```
 
 ## Pruebas
 
-\`\`\`bash
+```bash
 python -m unittest discover -p "test_*.py" -v
-\`\`\`
+```
 
 ## Texto publicitario sugerido
 

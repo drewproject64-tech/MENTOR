@@ -36,11 +36,11 @@ BOT_ABOUT = (
 )
 BOT_DESCRIPTION = (
     "ASISTENTE MR MENTOR es un bot educativo en español para planificar "
-    "sesiones de estudio de manera sencilla. Pulsa «Crear plan», escribe "
+    "sesiones de estudio. Pulsa «Crear plan», escribe "
     "una materia o tema y elige una duración de 30, 60 o 90 minutos. "
     "Recibirás un horario con bloques de lectura, práctica, pausas y repaso. "
     "En «Consejo de estudio» encontrarás sugerencias para organizarte y "
-    "mejorar tus hábitos de aprendizaje. «Ayuda» explica las funciones "
+    "repasar mejor. «Ayuda» explica las funciones "
     "y comandos disponibles. Es una herramienta de organización, no "
     "un sustituto de la enseñanza. No requiere pagos ni enlaces externos."
 )
